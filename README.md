@@ -28,7 +28,6 @@ pip install numpy
 pip install matplotlib
 pip install pandas
 pip install pillow
-pip install opencv-python
 pip install torchvision
 pip install -U albumentations
 ```
