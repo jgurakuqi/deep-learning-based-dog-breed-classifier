@@ -20,7 +20,7 @@ to improve the test accuracy of the model from 79% to 87% and the entire process
 The requirements for this project are:
 - (Python 3)[https://www.python.org/downloads/]
 - (Pytorch)[https://pytorch.org/]
-- 
+  
 ```bash
 pip install numpy
 pip install matplotlib
