@@ -36,7 +36,7 @@ pip install -U albumentations
 
 To run the project it's required an IDE or editor which supports jupyer notebooks.
 
-# Contributing
+## Contributing
 
 This project aimed at showing how much a model training could be improved changing several aspects of it, like:
 - Data augmentation.
