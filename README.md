@@ -16,6 +16,7 @@ The goal of the project is to improve [this kaggle project](https://www.kaggle.c
 - More functions for higher modularity and better memory management.
 - Multiprocessing to handle the preprocessing.
 - Using SGD instead of Adam.
+- Introduced and tested custom and standard learning rate schedulers.
 - Using a different training algorithm based on Constraint propagation.
 
 
