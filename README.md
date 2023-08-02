@@ -12,7 +12,7 @@
 
 ## Description
 
-The goal of the project is to improve [this kaggle project](https://www.kaggle.com/code/gabrielloye/dogs-inception-pytorch-implementation/notebook) achieving an higher test accuracy of the model (from 79% to 87%) and to the entire processing pipeline. The introduced changes are:
+The goal of the project is to improve [this kaggle project](https://www.kaggle.com/code/gabrielloye/dogs-inception-pytorch-implementation/notebook) achieving an higher test accuracy of the model (from 79% to 87%) and to improve the entire processing pipeline. The introduced changes are:
 - More functions for higher modularity and better memory management.
 - Multiprocessing to handle the preprocessing.
 - Using SGD instead of Adam.
