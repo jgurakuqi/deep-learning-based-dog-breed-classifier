@@ -58,7 +58,7 @@ Possible changes:
 - The model currently uses early stopping. During my tests the chosen stopping threshold has shown to achieve the best results, but using this training model over other datasets and problems might require different thresholds.
 - Other augmentations might be used to improve the model's generalization.
 
-# License
+## License
 
 MIT License
 
