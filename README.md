@@ -22,8 +22,8 @@ The goal of the project is to improve [this kaggle project](https://www.kaggle.c
 ## Installation
 
 The requirements for this project are:
-- (Python 3)[https://www.python.org/downloads/]
-- (Pytorch)[https://pytorch.org/]
+- [Python 3](https://www.python.org/downloads/)
+- [Pytorch](https://pytorch.org/)
   
 ```bash
 pip install numpy
