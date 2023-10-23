@@ -7,9 +7,20 @@ from IPython.display import display
 
 
 def send_telegram_message(message):
+    """
+    Send a Telegram message as a bot to a specificed chat group. In order to send such messages:
+    1) A Telegram bot must be initilalized, and a chat must be started with it.
+    2) Retrieve chat_id (integer) and bot token (as string) and place them in the 2 homonym variables below.
+    Currently the 2 variables are empty because the credentials must be private.
+
+    message (str): content of the message to be sent.
+    """
     try:
-        chat_id = -774133225
-        token = "5489914510:AAG3FrNtEpmJLpaGoqirJwIYlSkYlq4WtBg"
+        chat_id = None
+        token = None
+        if chat_id == None or token == None:
+            print(f"TELEGRAM MESSAGE FAILED: missing chat_id or token. Message content: \n    {message}")
+            return
         get(
             "".join(
                 [
